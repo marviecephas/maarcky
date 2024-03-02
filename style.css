@@ -15,6 +15,5 @@
     height:100%;
     width:100%;
     position:absolute;
-    filter:blur(0px);
     z-index:-1;
 }
