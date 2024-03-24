@@ -133,6 +133,8 @@ p{
         display:flex;
         margin:0;
         padding:0;
+        height:auto;
+        width:auto;
     }
     .nav_menu>*{
         margin-left:15px;
@@ -146,7 +148,6 @@ p{
         display:none;
     }
     .intro_container{
-        width:auto;
         align-items:flex-start;
     }
     .intro_container>*{
