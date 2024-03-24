@@ -1,4 +1,4 @@
-hi*{
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -151,5 +151,6 @@ p{
     }
     .intro_container>*{
         text-align:left;
+        max-width:400px;
     }
     }
