@@ -1,4 +1,4 @@
-*{
+hi*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -150,6 +150,6 @@ p{
         align-items:flex-start;
     }
     .intro_container>*{
-        align-items:left;
+        text-align:left;
     }
     }
