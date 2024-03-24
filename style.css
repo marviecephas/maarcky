@@ -146,6 +146,7 @@ p{
     }
     .fa-xmark{
         display:none;
+        position:relative;
     }
     .intro_container{
         align-items:flex-start;
