@@ -82,9 +82,6 @@ p{
 .fa-envelope{
     margin-right:1px;
 }
-.sub_nav_bar{
-    display:flex;
-}
 .sub_nav_bar>*{
     font-size:1.4em;
     margin-left:15px;
