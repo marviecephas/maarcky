@@ -147,7 +147,7 @@ p{
     }
     .intro_container{
         width:auto;
-        justify-content:flex-start;
+        align-items:flex-start;
     }
     .intro_container>*{
         align-items:left;
