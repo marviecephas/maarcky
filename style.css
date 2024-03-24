@@ -87,7 +87,6 @@ p{
     margin-left:15px;
     color:#e6f1ff;
     transition:color .3s;
-    display:flex;
 }
 .sub_nav_bar>*:hover, .sub_nav_bar>*:active{
     color:#64ffda;
