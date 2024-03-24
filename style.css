@@ -145,7 +145,11 @@ p{
     .fa-xmark{
         display:none;
     }
-    .illustration{
-        display:flex;
+    .intro_container{
+        width:auto;
+        justify-content:flex-start;
+    }
+    .intro_container>*{
+        align-items:left;
     }
     }
