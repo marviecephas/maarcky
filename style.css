@@ -150,6 +150,7 @@ p{
     .fa-xmark{
         display:none;
         position:relative;
+        font-size:.001em;
     }
     .intro_container{
         align-items:flex-start;
