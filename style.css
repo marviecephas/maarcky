@@ -75,7 +75,7 @@ p{
     position:absolute;
     width:85%;
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-end;
     align-items:center;
     top:20px;
 }
@@ -94,69 +94,50 @@ p{
 .sub_nav_bar>*:hover, .sub_nav_bar>*:active{
     color:#64ffda;
 }
-.nav_menu{
-    position:fixed;
-    top:0;
-    left:-4%;
-    height:100vh;
-    width:50vw;
+.about_container{
     background:rgb(17, 34, 64);
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     align-items:center;
-    display:none;
-    transition:display .5s;
-    padding-top:50px;
 }
-.nav_menu>*{
-    margin:20px 0 0 20%;
+.sub_about_container{
+    width:85%;
+    padding:50px 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
-.home,.about,.projects{
-    color:#e6f1ff;
-    text-decoration:none;
-    transition:border-left,padding-left .5s;
+.sub_about_container>*{
+    text-align:center;
 }
-.home:active,.about:active,.projects:active,.home:hover,.about:hover,.projects:hover{
-    border-left:2px solid #64ffda;
-    padding-left:2px;
+.about_header{
+    font-size:1.9em;
+    font-weight:700;
+    color:#ccd6f6;
+    margin-bottom:20px;
 }
-.fa-xmark{
-    position:absolute;
-    top:10px;
-    right:10px;
-    font-size:2em;
-}
-.illustration{
-    height:400px;
-    width:300px;
-    display:none;
+.about_paragraph{
+    font-size:1.1em;
+    font-weight:400;
+    color:#a8b2d1;
+    line-height:1.5;
+    opacity:.9;
 }
 @media (min-width:800px){
-    .nav_menu{
-        position:relative;
-        background:inherit;
-        display:flex;
-        margin:0;
-        padding:0;
-        height:auto;
-        width:auto;
-    }
-    .nav_menu>*{
-        margin:0 0 0 15px;
-    }
-    .home:active,.about:active,.projects:active,.home:hover,.about:hover,.projects:hover{
-    border:none;
-    color:#64ffda;
-    padding:0;
-    }
-    .fa-xmark{
-        display:none;
-        position:relative;
-        font-size:.001em;
-    }
     .intro_container{
         align-items:flex-start;
     }
     .intro_container>*{
         text-align:left;
-        max-width:400px;
+        max-width:500px;
+    }
+    .sub_about_container{
+        align-items:flex-start;
+    }
+    .sub_about_container>*{
+        text-align:left;
+        max-width:500px;
     }
     }
